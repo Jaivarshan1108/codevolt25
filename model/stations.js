@@ -9,8 +9,9 @@ const PumpSchema = new mongoose.Schema({
     default: "available",
   },
   reservedUntil: { type: Date, default: null }, 
-  userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", default: null },
+  userId: { type:String, default: null },
 });
+
 
 
 
