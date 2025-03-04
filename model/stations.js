@@ -12,6 +12,8 @@ const PumpSchema = new mongoose.Schema({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", default: null },
 });
 
+
+
 const ChargingStationSchema = new mongoose.Schema({
   stationId: { type: String, required: true, unique: true },
   name: { type: String, required: true },

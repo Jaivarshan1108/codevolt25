@@ -5,6 +5,7 @@ mongoose.connect("mongodb+srv://sathya:codevolt25@codevoltcluster.2wof2.mongodb.
 .then(() => console.log("MongoDB connected"))
 .catch((err) => console.log(err));
 
+
 const sampleStations = [
     {
       stationId: "CS201",

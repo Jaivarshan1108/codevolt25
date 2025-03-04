@@ -8,6 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: "*" } });
 
+
 mongoose
   .connect(
     "mongodb+srv://sathya:codevolt25@codevoltcluster.2wof2.mongodb.net/?retryWrites=true&w=majority&appName=codevoltcluster"
